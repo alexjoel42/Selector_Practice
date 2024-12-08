@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <button className="logo" onClick={() => handleNavigation('/')}>
+        <button className="logo" onClick={() => handleNavigation('/Selector_Practice')}>
           Home
         </button>
         <button className="logo" onClick={() => handleNavigation('/playground')}>

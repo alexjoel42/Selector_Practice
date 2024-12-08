@@ -13,7 +13,7 @@ function App() {
       <Routes>
         {/* Home Route */}
         <Route
-          path="/"
+          path="/Selector_Practice"
           element={
             <div>
               <h1>Thanks everyone for the great year!</h1>
