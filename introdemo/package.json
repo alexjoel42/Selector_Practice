@@ -1,17 +1,16 @@
 {
-  "homepage": "https://alexjoel42.github.io/Selector_Practice/",
   "name": "introdemo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://alexjoel42.github.io/Selector_Practice/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.3.1",
