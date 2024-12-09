@@ -1,7 +1,6 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom"; // Import Routes and Route
 import Navbar from './Components/Navbar'; // Make sure Navbar is in the correct path
-import ExampleComponent from './Components/example_component';
 import Test_Playground from "./pages/playground"; // Correct import for Test_Playground
 import QA_Squad from './assets/QA_Squad.jpg'; // Image import
 import './App.css';
