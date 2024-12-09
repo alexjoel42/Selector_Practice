@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Selector_Practice/', // Set this to match your repo name
+  base: '/Selector_Practice/', // Matches your GitHub repository name
   build: {
-    outDir: 'build', // Ensure this matches the gh-pages deploy target
+    outDir: 'dist', // Standard output directory for Vite builds
   },
 });
