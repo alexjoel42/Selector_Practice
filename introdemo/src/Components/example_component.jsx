@@ -10,7 +10,7 @@ export default function ExampleComponent() {
 
   return (
     <div>
-      <button onClick={goToPlayground}>Go to Playground className = "logo"</button>
+      <button onClick={goToPlayground}> Go to Playground className = "logo" </button>
     </div>
   );
 }
