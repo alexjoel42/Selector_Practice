@@ -15,8 +15,21 @@ General process to manipulate this is:
 8. Use `git commit -m "insert message here"` to commit
 9. Use `git push` to push to your branch
 10. Then I'll merge the PR :) .
+11. If you notice that you're getting
+```git
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+Then it's a good time to potentially git rebase. Somebody might've made a commit to main while you were hanging. Avoid this by working on a different branch
 
-If you are just here to vibe and click on things, just run `npx open cypress` and start playing around with the spec.cy.js file. 
+12. If you are just here to vibe and click on things, just run `npx open cypress` within the topmost directory after cloning (steps 1-2) and start playing around with the spec.cy.js file. 
+
+Challenges could be: 
+ 1. Making clickButtonUntil(targetCount)  into a .cy.js function and importing it
+ 2. Seeing if you could do cross-origin shenangins 
+ 3. Selecting  Heading 1 with a link and conquering cross origin
 
 
 
