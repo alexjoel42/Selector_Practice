@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://alexjoel42.github.io/Selector_Practice/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
