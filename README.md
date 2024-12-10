@@ -4,7 +4,7 @@ If that doesn't work, please make sure you have  `nvm add 18` and `npm use 18` o
 
 The app lives in introdemo. 
 
-General commit process is:
+General process to manipulate this is:
 1. clone the repository using `git clone https://github.com/alexjoel42/Selector_Practice.git `
 2. Use `npm install` to get the packages installed **inside of introdemo**
 3. Use `npm run dev` **inside of introdemo**
@@ -15,6 +15,8 @@ General commit process is:
 8. Use `git commit -m "insert message here"` to commit
 9. Use `git push` to push to your branch
 10. Then I'll merge the PR :) .
+
+If you are just here to vibe and click on things, just run `npx open cypress` and start playing around with the spec.cy.js file. 
 
 
 
